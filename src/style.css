@@ -11,7 +11,7 @@ section{
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
     padding: 1.5em;
-    max-width: 40em;
+    max-width: 45%;
 }
 
 .imagem img{
@@ -31,6 +31,7 @@ p, h3, li, table{
 li, p{
     color: hsl(30, 10%, 34%);
     font-weight: 500;
+    font-size: 1em;
 }
 
 li{

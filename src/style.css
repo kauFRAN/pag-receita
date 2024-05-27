@@ -1,0 +1,84 @@
+body{
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0;
+}
+
+section{
+    bordeR: 1px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1.5em;
+    max-width: 40em;
+}
+
+.imagem img{
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+h1, h2{
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+}
+
+p, h3, li, table{
+    font-family: "Outfit", sans-serif;
+}
+
+li, p{
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+
+li{
+    padding: 8px 10px 8px 20px;
+}
+
+h2, th{
+    color: hsl(14, 45%, 36%);
+}
+
+span{
+    color: hsl(30, 10%, 34%);
+    font-weight: 700;
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 4px 20px;
+    border: 1px solid hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.preparation h3, li::marker{
+    color: hsl(332, 51%, 32%) ;
+}
+
+.instructions{
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.Instructions li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+.Ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline;
+
+}
+
+td, th{
+    padding: 0 245px 20px 30px;
+}

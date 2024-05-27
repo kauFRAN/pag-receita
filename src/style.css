@@ -11,7 +11,7 @@ section{
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
     padding: 1.5em;
-    max-width: 45%;
+    max-width: 90vh;
 }
 
 .imagem img{

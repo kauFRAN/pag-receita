@@ -31,7 +31,6 @@ p, h3, li, table{
 li, p{
     color: hsl(30, 10%, 34%);
     font-weight: 500;
-    font-size: 1em;
 }
 
 li{
@@ -64,11 +63,7 @@ span{
     border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
-.Instructions li::marker{
-    color: hsl(14, 45%, 36%);
-}
-
-.Ingredients li::marker{
+.Instructions, .Ingredients li::marker{
     color: hsl(14, 45%, 36%);
 }
 

@@ -1,5 +1,15 @@
+:root{
+    --nutmeg: hsl(14, 45%, 36%);
+    --raspberry: hsl(332, 51%, 32%);
+    --white: hsl(0, 0%, 100%);
+    --rose-white: hsl(330, 100%, 98%);
+    --eggshell: hsl(30, 54%, 90%);
+    --wenge-brown: hsl(30, 10%, 34%);
+    --dark-charcoal: hsl(24, 5%, 18%);
+}
+
 body{
-    background-color: hsl(30, 54%, 90%);
+    background-color: var(--eggshell);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,15 +17,15 @@ body{
 }
 
 section{
-    bordeR: 1px solid hsl(0, 0%, 100%);
+    bordeR: 1px solid var(--white);
     border-radius: 10px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--white);
     padding: 1.5em;
     width: 43em;
 }
 
 .imagem img{
-    border: 1px solid hsl(0, 0%, 100%);
+    border: 1px solid var(--white);
     border-radius: 10px;
 }
 
@@ -30,44 +40,44 @@ p, h3, li{
 
 p{
     font-weight: 500;
-    color: hsl(30, 10%, 34%);
+    color: var(--wenge-brown);
 }
 
 li{
-    color: hsl(30, 10%, 34%);
+    color: var(--wenge-brown);
     font-weight: 500;
     margin: 15px 0 20px 25px;
     padding-left: 14px;
 }
 
 h2, th{
-    color: hsl(14, 45%, 36%);
+    color: var(--nutmeg);
 }
 
 span{
-    color: hsl(30, 10%, 34%);
+    color: var(--wenge-brown);
     font-weight: 700;
 }
 
 .preparation{
-    background-color: hsl(330, 100%, 98%);
+    background-color: var(--rose-white);
     padding: 4px 20px;
-    border: 1px solid hsl(330, 100%, 98%);
+    border: 1px solid var(--rose-white);
     border-radius: 10px;
     margin-top: 30px;
 }
 
 .preparation h3, li::marker{
-    color: hsl(332, 51%, 32%) ;
+    color: var(--raspberry);
 }
 
 .Instructions{
-    border-top: 1px solid hsl(30, 18%, 87%);
-    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-top: 1px solid var(--eggshell);
+    border-bottom: 1px solid var(--eggshell);
 }
 
 .Instructions, .Ingredients li::marker{
-    color: hsl(14, 45%, 36%);
+    color: var(--nutmeg);
 }
 
 .nutrition p{
@@ -85,5 +95,5 @@ span{
 .value{
     text-align: left;
     font-weight: bold;
-    color: hsl(14, 45%, 36%);
+    color: var(--nutmeg);
 }

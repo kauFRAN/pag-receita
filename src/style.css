@@ -16,7 +16,7 @@ body{
     margin: 120px 0;
 }
 
-section{
+main{
     border-radius: 15px;
     background-color: var(--white);
     padding: 1.5em;

@@ -17,8 +17,7 @@ body{
 }
 
 section{
-    bordeR: 1px solid var(--white);
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: var(--white);
     padding: 1.5em;
     width: 43em;

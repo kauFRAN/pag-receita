@@ -39,11 +39,11 @@ main{
     color: var(--prep-title);
 }
 
-.description, .prep-title, .steps li{
+.nutrition .value, .nutrition .macro, .description, .prep-title, .steps li{
     font-family: "Outfit", sans-serif;
 }
 
-.description, .steps li{
+.nutrition .macro, .description, .steps li{
     font-weight: 500;
     color: var(--txt-color);
 }
@@ -67,20 +67,18 @@ main{
     color: var(--subtitle);
 }
 
-.nutrition p{
+.nutrition .macro, .nutrition .value{
     display: inline-block;
+    text-align: left;
 }
 
-.macro{
-    text-align: left;
+.nutrition .macro{
     width: 25%;
     margin-right: 20%;
     margin-left: 10%;
-    
 }
 
-.value{
-    text-align: left;
+.nutrition .value{
     font-weight: bold;
     color: var(--subtitle);
 }

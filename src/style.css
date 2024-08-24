@@ -39,11 +39,11 @@ main{
     color: var(--prep-title);
 }
 
-p, .prep-title, .steps li{
+.description, .prep-title, .steps li{
     font-family: "Outfit", sans-serif;
 }
 
-p, .steps li{
+.description, .steps li{
     font-weight: 500;
     color: var(--txt-color);
 }

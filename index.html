@@ -15,40 +15,37 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="./src/reset.css" />
+    <link rel="stylesheet" href="./src/variables.css">
     <link rel="stylesheet" href="./src/style.css" />
     <link rel="stylesheet" href="./src/responsivo.css" />
-    <link rel="stylesheet" href="./src/reset.css" />
 
     <title>Frontend Mentor | Recipe page</title>
   </head>
   <body>
 
     <main>
-      <div class="imagem">
-        <img src="./assets/images/image-omelette.jpeg" alt="image-omelette" />
-      </div>
+        <img class="image" src="./assets/images/image-omelette.jpeg" alt="image omelette" />
 
-        <h1>Simple Omelette Recipe</h1>
+        <h1 class="title">Simple Omelette Recipe</h1>
         <p>
           An easy and quick dish, perfect for any meal. This classic omelette
           combines beaten eggs cooked to perfection, optionally filled with your
           choice of cheese, vegetables, or meats.
         </p>
-      </div>
 
       <div class="preparation">
-        <h3>Preparation time</h3>
-        <ul>
+        <h3 class="prep-title">Preparation time</h3>
+        <ul class="steps">
           <li><span>Total</span>: Approximately 10 minutes</li>
           <li><span>Preparation</span>: 5 minutes</li>
           <li><span>Cooking</span>: 5 minutes</li>
         </ul>
       </div>
 
-      <div class="Ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-          <li>2-3 large eggs</li>
+        <h2 class="subtitle">Ingredients</h2>
+        <ul class="steps">
+          <li>2-3 large </li>
           <li>Salt, to taste</li>
           <li>Pepper, to taste</li>
           <li>1 tablespoon of butter or oil</li>
@@ -56,11 +53,10 @@
             Optional fillings: cheese, diced, vegetables, cooked meats, herbs
           </li>
         </ul>
-      </div>
 
       <div class="Instructions">
-        <h2>Instructions</h2>
-        <ol>
+        <h2 class="subtitle">Instructions</h2>
+        <ol class="steps">
           <li><span>
             Beat the eggs</span>: In a bowl, beat the eggs with a pinch of salt and
             pepper until they are well mixed. You can add a tablespoon of water
@@ -88,8 +84,7 @@
         </ol>
       </div>
 
-      <div> 
-        <h2>Nutrition</h2>
+        <h2 class="subtitle">Nutrition</h2>
         <p>
           The table below shows nutritional values per serving without the
           additional fillings.
@@ -97,26 +92,18 @@
 
         <article class="nutrition">
           <p class="macro">Calories</p><p class="value">277kcal</p>
-        </article>
-  
-        <hr>
-  
-        <article class="nutrition">
+
+          <hr>
+
           <p class="macro">Carbs</p><p class="value">0g</p>
-        </article>
-  
-        <hr>
-  
-        <article class="nutrition">
+
+          <hr>
+
           <p class="macro">Protein</p><p class="value">20g</p>
-        </article>
-  
-        <hr>
-  
-        <article class="nutrition">
+          
+          <hr>
+
           <p class="macro">Fat</p><p class="value">22g</p>
         </article>
-      </div>
-    </section>
   </body>
 </html>
